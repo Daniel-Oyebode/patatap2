@@ -2,15 +2,15 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sound Box</title>
-    <link rel="stylesheet" href="./css/app.css">
-    <!--Paper JS-->
-    <script src="./js/paper-full.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.2/howler.core.min.js"></script>
-    <script type="text/paperscript" canvas="myCanvas">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sound Box</title>
+  <link rel="stylesheet" href="./css/app.css">
+  <!--Paper JS-->
+  <script src="./js/paper-full.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.2/howler.core.min.js"></script>
+  <script type="text/paperscript" canvas="myCanvas">
         var keyData = {
       q: {
         sound: new Howl({
@@ -194,7 +194,9 @@
 </head>
 
 <body>
-    <canvas id="myCanvas" resize></canvas>
+  <canvas id="myCanvas" resize></canvas>
+  <label for="text">Type Here: </label>
+  <input type="text">
 </body>
 
 </html>
